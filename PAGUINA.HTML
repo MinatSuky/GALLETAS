@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .superpadre{
+            background-color: rgba(225, 116, 176, 0.29);
+            color: black;
+            
+        }
+        /* recomendaciones o tips */
+        body{
+            margin: 0;
+        }
+        
+        
+        .verde{
+            height: 200px;
+        }
+        ul{
+            list-style: none;
+        }
+        .amarillo{
+            display: flex;
+            align-items: center;
+        }
+       .naranja{
+            display: flex;
+           gap: 17px;
+            align-items: center;
+            height: 70px;
+            width: 400px;
+        }
+        .barra{
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            gap: 200px;      
+        }
+        .cyan ul{
+            display: flex;
+            gap: 30px;
+        }
+        .cyan ul li{
+            transition: all ease-in-out 0.5s;
+        }
+        .barra .cyan ul li:hover{
+            color: blue;
+            /* transition: all ease-in-out 0.5s; */
+        }
+        .boton1{
+            font-weight: bolder;
+        }
+       .boton2{
+           background-image: url(IMG/fonde\ del\ carrito.png);
+           width: 99px;
+           height: 107px;
+           display: flex;
+           align-items: center;
+        }
+        .namber{
+          padding-right: 20px;
+        }
+        .superpadre2{
+         height: 1000px;
+         display: flex;
+        justify-content: center;
+        
+        }
+     
+        .subtitulo{
+            width: 849.864px;
+            height: 100.11px;
+            font-size: 128px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            
+        }
+        .text{
+            width: 845.683px;
+            height: 39.278px;
+            font-size: 32px;
+            font-family: 'Montserrat', sans-serif;
+            
+        }
+        .tex{
+            padding-bottom: 90px;
+        }
+        .boton{
+            padding-left: 10px;
+            border-radius: 90px;
+                background: rgba(246, 248, 128, 0.90);
+                box-shadow: 0px 7px 4px 0px rgba(225, 116, 176, 0.48);
+                width: 400px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+        }
+        .bot{
+            font-family: 'Montserrat', sans-serif;
+        }
+          .tex2{
+            font-family: 'Montserrat', sans-serif;
+          }
+          .tex3{
+            font-family: 'Montserrat', sans-serif;
+          }
+        .galletaflotante1{
+            width: 1000px;
+            height: 400px;
+            display: flex;
+            justify-content: end;
+            align-items: end;            
+        }
+        .galletaflotante2{
+            background-color: rgba(225, 116, 176, 0.29);
+            height: 300px;
+        }
+        .superpadre3{
+            background-color: rgba(225, 116, 176, 0.29);
+            height: 1400px;
+            display: flex;
+            padding-left: 200px;
+            padding-top: 100px;
+
+        }
+        .galletafruta{
+            width: 900px; 
+            height: 1200px;
+            display: flex;
+            justify-content: start;
+            padding-right: 70px;
+            border-radius: 830px;
+          filter: drop-shadow(-29px -75px 80px rgba(225, 11, 86, 0.7) );
+        }
+   
+      
+      .superpadre31{
+        width: 900px;
+        height: 1300px;
+      }
+      .galletafolotante3{
+        width: 900px;
+        height: 300px;
+        display: flex;
+        justify-content: center;             
+      }
+      .text2{
+        width: 900px;
+        height: 480px;         
+      }
+      .galletafolotante4{
+        width: 900px;
+        height: 170px;
+        display: flex;
+        justify-content: end;       
+      }
+      .galletafolotante5{
+        width: 900px;
+        height: 330px;      
+      }
+      .superpadre4{        
+        background-color: rgba(225, 116, 176, 0.29);
+        display: flex;
+        gap: 100px;
+        justify-content: space-around;
+        height: 750px;
+      }
+      .galleta1{       
+        width: 600px;
+        height: 700px;
+        filter: drop-shadow(-29px -75px 80px rgba(225, 11, 86, 0.7) );
+      }
+      .superpadre5{       
+        background-color: rgba(225, 116, 176, 0.29);
+        display: flex;
+        gap: 100px;
+        justify-content: space-around;
+        height: 750px;
+      }
+      .galleta2{       
+        width: 600px;
+        height: 700px;
+        filter: drop-shadow(-29px -75px 80px rgba(225, 11, 86, 0.7) );
+      }
+      .galleta21{      
+        width: 600px;
+        height: 700px;
+        filter: drop-shadow(-29px -75px 80px rgba(225, 11, 86, 0.7) );        
+      }
+       .fonte{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 20px;
+        font-size: 20px;
+       }
+       .superpadre6{      
+        background-color: rgba(225, 116, 176, 0.29);
+        height: 1400px;
+        display: flex;
+       }
+       .container{     
+        width: 1000px;
+        height: 1400px;
+       }
+       .texx{
+        width: 1000px;
+        height: 450px;
+        padding-top: 150px;
+       }
+       .texx2{
+        display: flex;
+        align-items: end;
+       }
+       .texxx{
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.64px;
+        padding-left: 300px;
+       }
+       .boton21{
+          padding-left: 300px;
+          font-family: 'Montserrat', sans-serif;
+       }
+       .boton22{
+        padding-left: 10px;
+            border-radius: 90px;
+                background: rgba(246, 248, 128, 0.90);
+                box-shadow: 0px 7px 4px 0px rgba(225, 116, 176, 0.48);
+                width: 400px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+       }
+       .container1{
+        
+        width: 1400px;
+        height: 1400px;
+       }
+       .paquete{
+        
+         width: 1100px;
+         height: 650px;
+         display: flex;
+         justify-content: center;
+         align-items: end;
+         filter: drop-shadow(-29px -75px 80px rgba(246, 248, 128, 0.40));
+       }
+       .contacto{
+       
+         width: 1250px;
+         height: 550px;
+         display: flex;
+         justify-content: center;
+         align-items: end;
+         gap: 50px;
+       }
+       .boo{
+        color: #000;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+       }
+       .booo{
+        color: #000;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 111.111% */
+       }
+       .redes{
+         width: 1370px;
+         height: 190px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 25px;
+       }
+       .numer{
+        padding-right: 250px;
+       }
+       .nambe{
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+font-weight: 500;
+       }
+     
+    </style>
+</head>
+
+<body>
+    <div class="superpadre">   <!---------------------------------------------------------------------------------------------------------------------------------->
+        <div class="barra">
+            <div class="amarillo">
+                <div class="verde">
+                    <img style="height: 200px;" src="./IMG/LOGOO.png" alt="logo">
+                </div>
+                <div class="cyan">
+                    <ul>
+                        <li>HOME</li>
+                        <li>PRODUCTOS</li>
+                        <li>TIENDA</li>
+                        <li>CONTACTO</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="naranja">
+
+                <div class="boton1"><img src="./IMG/Telefono.png" alt=""></div>
+                  <div class="namber">
+                   <ul>
+                       <li>
+                        +7 708 123 45 67
+                       </li>
+                   </ul>
+                  </div>
+                <div class="boton2"><img style="width: 55px; padding-left: 20px;" src="./IMG/carito.png" alt=""></div>
+                <div>
+                    <img src="./IMG/tira.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="superpadre2">   <!---------------------------------------------------------------------------------------------------------------------------------->
+            <div class="div1">
+               <p class="subtitulo">
+                MAKARONS
+               </p>
+               <div class="tex">
+                 <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                  elit. Cras ut metus erat. Maecenas mattis vel mauris <br>
+                  ut efficitur.
+                 </p>
+                </div>
+               <div class="boton">
+                <P class="bot" style="font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;">Más información</P>
+              </div>
+              <div class="galletaflotante1">
+                <img  style="width: 280px; height: 280px;" src="./IMG/galleta fotante1.png" alt="">
+              </div>
+            </div>
+          
+            <div class="ig">
+                <img  style="height: 1000px;" src="./IMG/galleta1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="galletaflotante2">
+        <img style="width: 250px; height: 400px;" src="./IMG/galletaflotante2.png" alt="">
+    </div>
+    <div class="superpadre3"><!---------------------------------------------------------------------------------------------------------------------------------->
+              
+           <div class="galletafruta">   
+            <img  src="./IMG/galletafruta.png" alt="">                   
+           </div>
+
+           <div class="superpadre31">
+             <div class="galletafolotante3">
+                
+                 <img  style="width: 280px;height: 280px; " src="./IMG/galletafolotante3.png" alt="">
+                
+             </div>
+             <div class="text2">
+                 <p class="tex2" style="font-size: 64px;font-style: normal;font-weight: 900;
+                           line-height: normal;">
+                    El mejor sabor<br>
+                    es indiscustible
+                 </p>
+                 <p class="tex3" style="font-size: 32px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing<br> 
+                    elit. Cras ut metus erat. Maecenas mattis vel<br> 
+                    mauris ut efficitur. Nam placerat semper purus<br> 
+                    consequat lacinia. Donec in mauris sagittis, tempor<br> 
+                    arcu ut, commodo libero.
+                 </p>
+             </div>
+             <div class="galletafolotante4">
+                  <img style="width: 170px; height: 200px;" src="./IMG/galletaflotante4.png" alt="">
+             </div>
+             <div class="galletafolotante5">
+                  <img style="width: 230px; height: 250px;padding-left: 100px;" src="./IMG/galletaflotante5.png" alt="">
+             </div>
+
+           </div>
+    </div>
+    <div class="superpadre4">
+        <div class="galleta1">
+           <img style="width: 682.87px;height: 550.862px;" src="./IMG/gall rosa.png" alt="">
+           <p class="fonte" style="padding-left: 250px;">
+            Macarons 1
+           </p>
+           <p class="fonte" style="padding-left: 275px;">
+            $10
+           </p>
+        </div>
+        <div class="galleta1">
+           <img style="width: 600px;height: 550px;" src="./IMG/gall rosa mordida.png" alt="">
+           <p class="fonte" style="padding-left: 250px;">
+            Macarons 1
+           </p>
+           <p class="fonte" style="padding-left: 275px;">
+            $10
+           </p>
+        </div>
+        <div class="galleta1">
+            <img style="width:600px;height:550px; border-bottom: 100px; " src="./IMG/gall tricolor.png" alt="">
+            <p class="fonte" style="padding-left: 250px;">
+                Macarons 1
+               </p>
+               <p class="fonte" style="padding-left: 275px;">
+                $10
+               </p>
+        </div>
+    </div>
+    <div class="superpadre5">
+        <div class="galleta2">
+            <img style="padding-left: 70px; padding-top: 45px; padding-bottom: 60px;" src="./IMG/gall verde.png" alt="">
+            <p class="fonte" style="padding-left: 250px;">
+                Macarons 1
+               </p>
+               <p class="fonte" style="padding-left: 275px;">
+                $10
+               </p>  
+        </div>
+          <div class="galleta21">
+             <img style="height: 550px; width: 350px; margin: 0 125px 0 125px;"  src="./IMG/gall rosa triple.png" alt="">
+             <p class="fonte" style="padding-left: 250px;">
+              Macarons 1
+             </p>
+             <p class="fonte" style="padding-left: 275px;">
+              $10
+             </p>               
+        </div>
+          <div class="galleta2">
+           <img style="padding: 30px 0 80px 55px;" src="./IMG/gall marron.png" alt=""> <p style="padding-left: 250px;">
+            <p class="fonte" style="padding-left: 250px;">
+                Macarons 1
+               </p>
+               <p class="fonte" style="padding-left: 275px;">
+                $10
+               </p>
+        </div>
+    </div>
+    <div class="superpadre6">
+        <div class="container">
+            <div class="texx">
+             <p class="texxx">
+              Lorem ipsum dolor sit amet,<br>
+              consectetur adipiscing elit. Duis ornare <br>
+              est et nisi pretium, dignissim <br>
+              vestibulum nibh tincidunt. Proin a <br>
+              ultricies quam. Sed diam turpis, porta <br>
+               vitae rhoncus vitae, efficitur vel diam.
+              </p>
+              <div class="boton21">
+                <P class="boton22" style="font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;">Más información</P>
+              </div>
+           </div>
+           <div class="texx2">
+               <img style="width: 500px; height: 795px; padding-left: 280px;" src="./IMG/woman.png" alt="">
+               <img style="width: 250px; height: 170px;" src="./IMG/marca.png" alt="">
+           </div>
+        </div>
+        <div class="container1">
+             <div class="paquete">
+               <img style="width: 600px; height: 600px; padding-left: 70px;" src="./IMG/paquete.png" alt="">
+             </div>
+             <div class="contacto">
+                <div class="numer">
+                  <p class="boo">
+                    Contactanos
+                  </p>
+                  <p class="booo">
+                    Santa Marta <br>
+                    3053060138
+                  </p>
+                </div>               
+                <img style="width: 500px; height: 400px;" src="./IMG/gallta ultima.png" alt="">               
+             </div>
+             <div class="redes">     
+                        <img style="width: 50px; height: 50px;" src="./IMG/Telefono.png" alt="">
+                        <p class="nambe" style="padding-right: 100px;">
+                        3053060138
+                        </p>
+                        <img style="width: 50px; height: 50px;" src="./IMG/instagram 1.png" alt="">                   
+             </div>
+        </div>
+    </div>
+</body>
+
+</html>
